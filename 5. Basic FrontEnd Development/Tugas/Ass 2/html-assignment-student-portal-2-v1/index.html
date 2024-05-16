@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Student Portal</h1>
+    <p><strong>Admin</strong></p>
+    <img
+      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+      alt="Avatar"
+      width="200"
+      height="200"
+    />
+    <form id="form-student">
+      <label for="input-name">Fullname</label>
+      <input type="text" id="input-name" name="name" /><br />
+      <label for="input-date">Birth Date</label>
+      <input type="date" id="input-date" name="date" /><br />
+      <label for="input-gender">Gender</label>
+      <select id="input-gender" name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option></select
+      ><br />
+      <label for="input-prody">Program Study</label>
+      <select id="input-prody" name="prody">
+        <option value="Ekonomi">Ekonomi</option>
+        <option value="Manajemen">Manajemen</option>
+        <option value="Akuntansi">Akuntansi</option>
+        <option value="Administrasi Publik">Administrasi Publik</option>
+        <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+        <option value="Hubungan Internasional">Hubungan Internasional</option>
+        <option value="Teknik Sipil">Teknik Sipil</option>
+        <option value="Arsitektur">Arsitektur</option>
+        <option value="Matematika">Matematika</option>
+        <option value="Fisika">Fisika</option>
+        <option value="Informatika">Informatika</option></select
+      ><br />
+      <input type="submit" id="add-btn" value="Add student" />
+      <hr />
+    </form>
+    <table id="table-student">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Full Name</th>
+          <th>Birth Date</th>
+          <th>Gender</th>
+          <th>Student ID</th>
+          <th>Faculty</th>
+          <th>Program Study</th>
+          <th>Option</th>
+        </tr>
+      </thead>
+      <tbody id="student-data">
+        <tr>
+          <td>1</td>
+          <td>Rafli Al Fajar</td>
+          <td>2001/11/08</td>
+          <td>Male</td>
+          <td>FE5420239</td>
+          <td>Teknologi Informasi</td>
+          <td>Teknik Informatika</td>
+          <td><button class="delete-btn" type="button">Delete</button></td>
+        </tr>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

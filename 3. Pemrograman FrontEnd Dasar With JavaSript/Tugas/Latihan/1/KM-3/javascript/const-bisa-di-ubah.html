@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Const bisa di ubah</title>
+</head>
+<body>
+    <script>
+        const obj = { id: 1, name: "Andi" };
+        obj.age = 20;
+        console.log(obj); // result: {id: 1, name: 'Andi', age: 20}
+        obj = {}; // TypeError: Assignment to constant variable
+
+        const arr = [1, 2, 3, 4];
+        arr.push(5);
+        console.log(arr); // result: [1,2,3,4,5]
+        arr = []; // TypeError: Assignment to constant variable
+    </script>
+</body>
+</html>

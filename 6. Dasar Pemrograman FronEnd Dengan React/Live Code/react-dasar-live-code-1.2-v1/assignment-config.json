@@ -1,0 +1,18 @@
+{
+	"name": "react-dasar-live-code-1.2",
+	"course": "Frontend Web Development with React",
+	"title": "Live Coding - Jujutsu Kaisen React App",
+	"order": 999,
+	"topics": [
+		"React Dasar",
+		"jsx",
+		"Functional Component",
+		"Props"
+	],
+	"image": "react-js",
+	"command": "npm run test",
+	"totalTestCase": 6,
+	"metadata": {
+		"type": "live-coding"
+	}
+}

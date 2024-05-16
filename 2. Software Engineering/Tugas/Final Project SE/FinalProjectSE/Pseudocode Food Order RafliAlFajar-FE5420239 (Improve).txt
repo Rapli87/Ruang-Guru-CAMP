@@ -1,0 +1,85 @@
+Pseudocode Online Food Order
+// Inisialisasi Variabel
+READ AND WRITE jumlah_makanan with NUMBER
+READ AND WRITE makanan[jumlah_makanan] with ARRAY OF STRING
+READ AND WRITE harga_makanan[jumlah_makanan], with ARRAY OF INTEGER
+READ AND WRITE with username, password with STRING
+READ AND WRITE with isLogin BOOLEAN
+READ AND WRITE with i, total INTEGER
+READ AND WRITE pesanan_makanan[jumlah_makanan] with ARRAY OF INTEGER
+
+// Pengisian Data Makanan
+makanan[0] ← "Nasi Goreng"
+harga_makanan[0] ← 12000
+makanan[1] ← "Ayam Geprek"
+harga_makanan[1] ← 15000
+makanan[2] ← "Sate Ayam"
+harga_makanan[2] ← 13000
+makanan[3] ← "Mie Goreng"
+harga_makanan[3] ← 11000
+makanan[4] ← "Nasi Campur"
+harga_makanan[4] ← 17000
+
+// Login/Register
+WHILE isLogin = false DO
+    WRITE "Silakan login atau register untuk memulai pemesanan"
+    WRITE "1. Login"
+    WRITE "2. Register"
+    WRITE "Pilihan Anda: "
+
+    READ pilihan
+    IF pilihan = 1 THEN
+        WRITE "Masukkan username: "
+        READ username
+        WRITE "Masukkan password: "
+        READ password
+
+        // Proses login
+        IF username = "admin" AND password = "admin" THEN
+            WRITE "Login berhasil"
+            isLogin ← true
+        ELSE
+            WRITE "Username atau password salah"
+        END IF
+    ELSE IF pilihan = 2 THEN
+        WRITE "Masukkan username: "
+        READ username
+        WRITE "Masukkan password: "
+        READ password
+
+        // Proses register
+        WRITE "Registrasi berhasil"
+        isLogin ← true
+    ELSE
+        WRITE "Pilihan tidak valid"
+    END IF
+END WHILE
+
+// Pemesanan Makanan
+WHILE true DO
+    WRITE "Silakan pilih menu yang tersedia: "
+    FOR i ← 0 TO jumlah_makanan - 1 DO
+        WRITE (i + 1) + ". " + makanan[i] + " (Rp " + harga_makanan[i] + ")"
+    END FOR
+
+    WRITE "Pilihan makanan: "
+    READ pilihan_makanan
+    WRITE "Jumlah makanan: "
+    READ pesanan_makanan[pilihan_makanan - 1]
+    WRITE "Pesan lagi? (Y/N)"
+    READ pilihan_lanjut
+    IF pilihan_lanjut = "N" THEN
+        EXIT
+    END IF
+END WHILE
+
+// Checkout
+READ Input Alamat
+FOR i ← 0 TO jumlah_makanan - 1 DO
+    total ← total + (harga_makanan[i] * pesanan_makanan[i])
+IF pilih COD then read No. Resi (Tanda Terima)
+IF pilih Transfer then read Bukti Transfer
+WHILE true DO
+    READ "Barang Dikiirm Ke Alamat "
+    READ "Barang Di terima "
+END FOR

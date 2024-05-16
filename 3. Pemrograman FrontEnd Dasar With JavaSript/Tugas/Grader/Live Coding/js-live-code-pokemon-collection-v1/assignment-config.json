@@ -1,0 +1,17 @@
+{
+	"name": "js-live-code-pokemon-collection",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Live Coding - Pokemon Collection",
+	"order": 999,
+	"topics": [
+		"array",
+		"object",
+		"looping"
+	],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 56,
+	"metadata": {
+		"type": "live-coding"
+	}
+}

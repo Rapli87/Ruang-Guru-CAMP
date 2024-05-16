@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Add your custom styles here */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#form-student {
+  margin-bottom: 20px;
+}
+
+#table-student {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-student th,
+#table-student td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+/* style.css */
+
+/* Add your custom styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Set the desired background color */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#form-student {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#form-student label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form-student input,
+#form-student select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#add-btn {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-btn:hover {
+  background-color: #006400;
+}

@@ -1,0 +1,17 @@
+{
+	"name": "js-live-code-student-grouping",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Live Coding - Student Grouping",
+	"order": 999,
+	"topics": [
+		"array",
+		"object",
+		"looping"
+	],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 56,
+	"metadata": {
+		"type": "live-coding"
+	}
+}

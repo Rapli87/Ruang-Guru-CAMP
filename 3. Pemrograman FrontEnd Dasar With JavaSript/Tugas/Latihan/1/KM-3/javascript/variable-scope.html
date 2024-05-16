@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel Scope</title>
+</head>
+<body>
+    <script>
+        let globalVar = "This is a global variable";
+
+        function fun() {
+        let localVar = "This is a local variable";
+
+        console.log(globalVar);
+        console.log(localVar);
+        }
+        fun();
+
+        // result: 'This is a global variable'
+        //         'This is a global variable'
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Scope Luar Function</title>
+</head>
+<body>
+    <script>
+        let globalVar = "This is a global variable";
+
+        function fun() {
+        let localVar = "This is a local variable";
+        }
+        fun();
+
+        console.log(globalVar);
+        console.log(localVar);
+
+        // result: 'This is a global variable'
+        //         Error: localVar is not defined
+    </script>
+</body>
+</html>

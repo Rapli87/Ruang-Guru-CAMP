@@ -1,0 +1,19 @@
+{
+	"name": "js-live-code-bulk-order-calculator",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Live Coding - Bulk Order Calculator",
+	"order": 999,
+	"topics": [
+		"conditional",
+		"looping",
+		"function",
+		"string manipulation",
+		"number operation"
+	],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 9,
+	"metadata": {
+		"type": "live-coding"
+	}
+}

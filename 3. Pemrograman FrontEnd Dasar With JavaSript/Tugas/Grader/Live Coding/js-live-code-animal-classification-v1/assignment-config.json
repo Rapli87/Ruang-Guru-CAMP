@@ -1,0 +1,17 @@
+{
+	"name": "js-live-code-animal-classification",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Live Coding - Animal Classification",
+	"order": 999,
+	"topics": [
+		"array",
+		"object",
+		"looping"
+	],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 24,
+	"metadata": {
+		"type": "live-coding"
+	}
+}
